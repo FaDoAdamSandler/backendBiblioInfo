@@ -1,11 +1,43 @@
 {
-    "categories": [
-        {"id": 1, "description": "Categoria 1"},
-        {"id": 2, "description": "Categoria 2"}
-    ],
-    "publishers": [],
-    "books": [
-        {"id": 1, "title": "Livro 1", "categoryId": 1, "publisherId": 1},
-        {"id": 1, "title": "Livro 2", "categoryId": 2, "publisherId": 1}
-    ]
+  "categorias": [
+    {
+      "descrição": "oi tudo bem",
+      "id": 1
+    },
+    {
+      "descrição": "categoria x",
+      "id": 2
+    }
+  ],
+  "editoras": [
+    {
+      "nome": "seção nn sei",
+      "site": "www.seila",
+      "id": 1
+    }
+  ],
+  "livros": [
+    {
+      "titulo": "a revolução os bichos",
+      "ISBN": "234456",
+      "categoria": "Filosofia",
+      "editora": "Moderna",
+      "quantidade": 10,
+      "preco": 10,
+      "id": 1
+    }
+  ],
+  "autores": [
+    {
+      "nome": "aaaaa",
+      "id": 1
+    },
+    {
+      "nome": "aa",
+      "id": 2
+    },
+    {
+      "id": 3
+    }
+  ]
 }
